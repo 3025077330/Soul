@@ -1,0 +1,6 @@
+include ':user'
+include ':IMLib'
+include ':CallLib'
+include ':fromwork'
+include ':app'
+rootProject.name = "SoulChat"

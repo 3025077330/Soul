@@ -1,0 +1,60 @@
+ext {
+    //android开发版本配置
+    android = [
+            compileSdkVersion        : 30,
+            buildToolsVersion        : "30.0.1",
+            applicationId            : "com.example.soulchat",
+            minSdkVersion            : 19,
+            targetSdkVersion         : 30,
+            versionCode              : 1,
+            versionName              : "1.0",
+            testInstrumentationRunner: "androidx.test.runner.AndroidJUnitRunner"
+    ]
+    //version配置
+    versions = [
+
+    ]
+
+    //依赖第三方配置
+    dependencies = [
+
+            "constraintlayout" : "androidx.constraintlayout:constraintlayout:2.0.2",
+            //rxjava
+            "rxjava"           : "io.reactivex.rxjava2:rxjava:2.2.6",
+            "rxandroid"        : "io.reactivex.rxjava2:rxandroid:2.1.1",
+            //网络框架
+            "okhttp"           : "com.squareup.okhttp3:okhttp:3.10.0",
+            "interceptor"      : "com.squareup.okhttp3:logging-interceptor:3.10.0",
+            "adapter-rxjava"   : "com.squareup.retrofit2:adapter-rxjava2:2.4.0",
+            "converter-gson"   : "com.squareup.retrofit2:converter-gson:2.4.0",
+            "retrofit"         : "com.squareup.retrofit2:retrofit:2.4.0",
+            //glide图片加载
+            "glide"            : "com.github.bumptech.glide:glide:4.9.0",
+
+            //二维码
+            "zxing"            : "cn.yipianfengye.android:zxing-library:2.2",
+            //屏幕适配
+            "autosize"         : "me.jessyan:autosize:1.1.2",
+            //recyclerview
+            "recyclerview"     : "com.android.support:recyclerview-v7:30.0.0",
+            "anko-commons"     : "org.jetbrains.anko:anko-commons:0.10.5",
+            "design-design"    : "org.jetbrains.anko:anko-design:0.10.5",
+
+            //验证码
+            "bmobsdk"          : "cn.bmob.android:bmob-sdk:3.7.3-rc1",
+            "bmobim"           : "cn.bmob.android:bmob-im:2.1.5@aar",
+            "eventbus"       : 'org.greenrobot:eventbus:3.1.1',
+            //内存泄漏
+            "debugleakcanary"  : "com.squareup.leakcanary:leakcanary-android:1.6.3",
+            "releaseleakcanary": "com.squareup.leakcanary:leakcanary-android-no-op:1.6.3",
+            //星球
+            "tagcloud"         : "com.moxun:tagcloudlib:1.2.0",
+            "circleimageview"  : 'de.hdodenhof:circleimageview:3.0.0',
+
+    ]
+    //仓库
+    maven = [
+            "bmobUrl": "https://raw.github.com/bmob/bmob-android-sdk/master",
+            "jitpack": "https://jitpack.io"
+    ]
+}

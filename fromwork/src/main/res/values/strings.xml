@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="text_main_star">星球</string>
+    <string name="text_main_square">广场</string>
+    <string name="text_main_chat">聊天</string>
+    <string name="text_main_moment">发布 \n瞬间</string>
+    <string name="text_main_me">我的</string>
+    <string name="text_server_status">服务器未连接</string>
+    <string name="text_devices_not_supper_audio">设备不支持音视频通话</string>
+
+
+</resources>

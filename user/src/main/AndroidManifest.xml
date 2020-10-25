@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user">
+
+    <application>
+        <activity
+            android:name=".login.LoginActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/TranslucentTheme">
+
+        </activity>
+        <activity
+            android:name=".login.PrtcolActivity"
+            android:launchMode="singleTask"
+            android:process="com.webview"
+            android:theme="@style/TranslucentTheme">
+
+        </activity>
+    </application>
+</manifest>
