@@ -59,7 +59,7 @@ public class MainActivity extends BaseUIActivity implements View.OnClickListener
     private StarFragment mStarFragment = null;
     private FragmentTransaction mStarTransaction = null;
 
-    //广场
+    //广场Y
     private ImageView iv_square;
     private TextView tv_square;
     private LinearLayout ll_square;

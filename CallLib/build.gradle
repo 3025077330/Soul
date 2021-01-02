@@ -22,6 +22,7 @@ dependencies {
     api fileTree(dir: 'libs', include: ['*.jar'])
     api 'com.android.support:support-compat:26.1.0'
     api 'com.google.code.gson:gson:2.8.1'
+
 }
 
 repositories {
@@ -29,4 +30,5 @@ repositories {
         url 'https://maven.google.com/'
         name 'Google'
     }
+    maven { url 'https://raw.github.com/bmob/bmob-android-sdk/master”' }
 }
